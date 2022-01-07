@@ -1,3 +1,13 @@
+# Minha primeira aplicação com React
+
+Projeto desenvolvido no curso: "Trabalhando com Componentes em React JS" da Digital Innovation One.  Especialista: Nathally Souza.
+
+
+
+#### Imagem:
+
+<img src=".\img01-react-componentes.png"  />
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

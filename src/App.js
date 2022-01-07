@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Item from './components/Item';
+import Card from './components/Card';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+	return(
+		<>
+			<h1>Minha primeira aplicação com React</h1>
+			<ul>
+				<Item>Item A</Item>
+				<Item>Item B</Item>
+				<Item>Item C</Item>
+			</ul>
+			<Card/>
+		</>
+	)
 }
 
 export default App;
+
+/**
+ * Outra maneira de fazer.
+export default dunction App() {
+	return(
+		<h1>Hello world</h1>
+	)
+}
+ */
